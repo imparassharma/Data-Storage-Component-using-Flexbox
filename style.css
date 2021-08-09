@@ -1,0 +1,232 @@
+body{
+    margin: 10vh 5vw;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-mobile.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Raleway';
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.container{
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    margin-top: 20%;
+    background-color: hsl(228, 56%, 26%);
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px 100px 10px 10px;
+}
+
+.logo img{
+    width: 45%;
+    height: 7vh;
+    margin: 0px 0px 50px 50px;
+}
+
+.img-row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.img-row img{
+    width: 30px;
+    height: 3vh;
+    padding: 15px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    border-radius: 5px;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.container2 p{
+    color: white;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.container2 span{
+    font-weight: 600;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    width: 55%;
+    height: 2vh;
+    border-radius: 50px;
+    background : linear-gradient(hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    border: solid hsl(229, 57%, 11%);
+    box-shadow: 100px 0px 0px 0px rgba(20, 11, 59, 0.781);
+}
+
+.dot
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: white;
+    margin-left: 92%;
+}
+
+.usage p{
+    word-spacing: 180px;
+    margin-top: 10px;
+}
+
+.usage span{
+    margin-left: 5px;
+}
+
+.container3{
+    display: flex;
+    width: 50%;
+    height: 9vh;
+    margin-top: -5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container3 h1{
+    color: hsl(229, 57%, 11%);
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+.container3 span{
+    font-size: 14px;
+    color: hsl(229, 7%, 55%);
+    margin-left: 5px;
+}
+
+.img-row img:hover{
+    background-color: white;
+}
+
+
+@media screen and (min-width: 1028px) {
+
+    body{
+        background-image: url(images/bg-desktop.png);
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .main{
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        margin-left: 150px;
+    }
+    
+    .logo img{
+        height: 6vh;
+    }
+
+    .container{
+        margin-top: 0;
+    }
+
+    .container1{
+        padding-right: 100px;
+        height: 28vh;
+        margin-left: 50px;
+    }
+
+    .container2{
+        align-items: baseline;
+        width: 360%;
+        margin-left: 20px;
+        margin-top: 57px;
+        border-radius: 10px;
+    }
+
+    .img-row{
+        margin-top: -20px;
+    }
+    .bar{
+        margin-left: 0;
+        width: 350px;
+        box-shadow: 150px 0px 0px 0px rgba(20, 11, 59, 0.781);
+    }
+
+    .dot{
+        margin-left: 96.5%;
+    }
+
+    .usage p{
+        word-spacing: 400px;
+    }
+    .content{
+        margin-left: 30px;
+    }
+
+    .container3{
+        flex-direction: column;
+        margin-left: 350px;
+        margin-top: -180px;
+        width: 30%;
+        height: 9vh;
+        border-radius: 10px 10px 0 10px;
+    }
+
+    .arrow{
+        margin-top: -28px;
+        margin-left: 82.86%;
+        border: solid white;
+        height: 25px;
+        width: 5px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 0 0 0 100%;     
+    }
+
+}
+
+@media screen and (min-width:1500px) {
+
+    .container{
+        margin-top: -180px;
+    }
+
+    .container2{
+        
+        margin-top: -120px;
+    }
+
+    .bar{
+        width: 400px;
+    }
+
+    .usage p{
+        word-spacing: 450px;
+    }
+
+    .container3 .arrow{
+        margin-left: 87.22%;
+        margin-top: -30px;
+    }
+    
+}
