@@ -194,7 +194,7 @@ body{
 
     .arrow{
         margin-top: -28px;
-        margin-left: 82.86%;
+        margin-left: 82.5%;
         border: solid white;
         height: 25px;
         width: 5px;
@@ -225,8 +225,8 @@ body{
     }
 
     .container3 .arrow{
-        margin-left: 87.22%;
-        margin-top: -30px;
+        margin-left: 84.5%;
+        margin-top: -35px;
     }
     
 }
